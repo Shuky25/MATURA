@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/pozadina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+header h1 {
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 13px rgba(0, 0, 0, 1);
+}
+
+header nav {
+    /* background-color: #fcfba1;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+	align-items: center;
+	color: #3c1826; */
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+header nav ul {
+    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header nav ul li {
+    width: 200px;
+    height: 60px;
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    border-right: 1px solid #3C1826;
+}
+
+header nav ul li:last-child {
+    border: none;
+}
+
+header nav ul li a {
+    /* padding: 1rem 2rem;
+	height: 100%; */
+    text-decoration: none;
+    width: 64px;
+    text-align: center;
+    padding: 21px 68px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a.active {
+    background-color: #3C1826;
+    color: yellow;
+}
+
+/* header nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 19px;
+    background-color: yellow;
+    border: 1px solid #3C1826;
+    overflow: hidden;
+}
+
+header nav ul li {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #3C1826;
+}
+
+header nav ul li a {
+    color: #3C1826;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid #3C1826;
+    margin: 0;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+    background-color: #3C1826;
+} */
+
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-size: cover;
+    border: 5px solid yellow;
+}
+
+.circle-1 {
+    background-image: url('../img/krava.jpg');
+}
+
+.circle-2 {
+    background-image: url('../img/macka.jpg');
+}
+
+.circle-3 {
+    background-image: url('../img/pace.jpg');
+}
+
+.circle-4 {
+    background-image: url('../img/pas.jpg');
+}
+
+.circle-5 {
+    background-image: url('../img/pile.jpg');
+}
+
+.circle:hover {
+    cursor: pointer;
+    
+}
+
+section#about {
+    background-color: #d3d3d3;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+section#uputstvo {
+    background-color: #d3d3d3;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3C1826;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px;
+    color: yellow;
+}

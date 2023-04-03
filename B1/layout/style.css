@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180,217,235);
+}
+
+h1 {
+    color: #2B5480;
+    padding: 20px 50px;
+}
+
+nav {
+    background-color: #2b5480;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li p {
+    margin: 0;
+    padding: 14px 16px;
+}
+
+.liZav {
+    float: right;
+}
+
+ul li a {
+    border-right: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #82B7D0;
+    color: #000;
+}
+
+/* ============================================= */
+.opis {
+    padding: 0;
+}
+
+section#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section#gallery img {
+    width: 100%;
+}
+
+section#gallery .container {
+    max-width: 640px;
+    max-height: 640px;
+    background-color: white;
+    /* padding: 5px 5px 10px 5px; */
+}
+
+
+section#gallery .container .opis textarea {
+    width: 100%;
+    resize: none;
+    background-color: #2B5480;
+    color: white;
+    height: 120px;
+}
+
+section#gallery .container .slika img {
+    display: block;
+    margin: auto;
+    width: 640px;
+    height: 480px;
+}
+
+section#gallery .container .slicice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section#gallery .container .slicice img {
+    width: 64px;
+    height: 40px;
+}
+
+section#gallery .container .slicice img:hover {
+    cursor: pointer;
+}

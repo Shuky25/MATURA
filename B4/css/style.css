@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F0F7A8;
+}
+
+header h1 {
+    text-align: center;
+    color: #487D2F;
+    padding: 20px 10px;
+}
+
+header nav {
+    width: 100%;
+    background-color: #487D2F;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header nav ul {
+    text-align: center;
+    list-style: none;
+    
+}
+
+header nav ul a {
+    color: #F0F7A8;
+    /* padding: 22px 40px; */
+    text-decoration: none;
+    font-size: 15px;
+    padding: 22px 100px;
+}
+
+header nav ul a:hover {
+    color: #487D2F;
+    background-color: #F0F7A8;
+}
+
+section#galerija {
+    padding: 60px 10px;
+}
+
+section#galerija .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section#galerija .container p {
+    width: 30%;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #487D2F;
+}
+
+section#galerija .container .group .slike {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #487D2F;
+}
+
+section#galerija .container .group .slike img {
+    display: block;
+    width: 200px;
+}
+
+section#galerija .container .group .slike .opisi {
+    width: 300px;
+}
+
+section#galerija .container .group .slike .opisi h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+section#galerija .container .group .slike .opisi p {
+    color: #d3d3d3;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+
+section#galerija .container .group .indicators {
+    width: 100%;
+    
+    text-align: center;
+}
+
+section#galerija .container .group .indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #333;
+} 
+
+section#galerija .container .group .indicators .active {
+    background-color: #487D2F;
+}
+
+footer {
+    background-color: #487F2E;
+    width: 100%;
+}
+
+footer p {
+    color: #F0F7A8;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+}

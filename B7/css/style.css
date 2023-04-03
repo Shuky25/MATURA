@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4B6C9E;
+}
+
+header h1 {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header nav {
+    background-color: #3A4F63;
+}
+
+header nav ul {
+    padding: 15px 20px;
+}
+
+header nav ul a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #465C71;
+    padding: 10px 20px;
+    border: 1px solid #4E667D;
+}
+
+section#forma {
+    padding: 10px;
+}
+
+section#forma h2 {
+    font-size: 18px;
+}
+
+section#forma p {
+    font-size: 14px;
+}
+
+section#forma hr {
+    max-width: 90%;
+    margin: 0 auto 50px auto;
+    border: 1px solid;
+    
+}
+
+section#forma  form {
+    width: 500px;
+}
+
+section#forma form fieldset {
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+section#forma  form fieldset .form-control {
+    width: 450px;
+    border: none;
+}
+
+section#forma  form fieldset input[type=text], input[type=password] {
+    width: 450px;
+}
+
+section#forma  form  button {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #333;
+    transition: .2s;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+    /* float: right; */
+}
+section#forma  form  button:hover {
+    color: #fff;
+    background-color: #333;
+
+}
+
+/* ===== tabela ====== */
+table {
+    border: 1px solid black;
+    margin: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* ===== footer ===== */
+
+footer {
+    /* position: absolute;
+    bottom: 0; */
+    background-color: #B6B7BC;
+    width: 100%;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    color: #77828F;
+    margin: 0;
+    padding: 10px 20px;
+}
+
